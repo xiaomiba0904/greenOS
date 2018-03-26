@@ -10,7 +10,7 @@ MBOOT_CHECKSUM          equ	-(MBOOT_HEADER_MAGIC+MBOOT_HEADER_FLAGS)
 
 
 [BITS 32]
-seciton .text
+section .text
 
 
 dd MBOOT_HEADER_MAGIC
